@@ -17,7 +17,7 @@ Once you have your channels created with programming/shows added, head over to J
 </figure>
 
 <hr/>
-At this point, Jellyfin will ask for your tuner type - we recdommend selecting HD Homerun. 
+At this point, Jellyfin will ask for your tuner type - we recommend selecting HD Homerun. 
 
 !!! note
     Tunarr supports M3U and HDHR style connections from clients. However, some users have experienced stability issues at program boundaries when using Tunarr as an M3U tuner in Jellyfin. This seems to occur when Jellyfin is _not_ transcoding / remuxing the incoming stream and seems related to the following issues: [jellyfin/jellyfin-ffmpeg#57](https://github.com/jellyfin/jellyfin-ffmpeg/issues/57) and [trac.ffmpeg.org/ticket/5419](https://trac.ffmpeg.org/ticket/5419)
